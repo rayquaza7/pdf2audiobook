@@ -1,6 +1,8 @@
 # Convert any pdf to an audiobook
 
-An inefficient and costly way to convert any pdf to an audiobook. Each page is run in parallel via modal labs, very prone to CUDA out of memory errors.
+1. Built using meta's [MMS model](https://github.com/facebookresearch/fairseq/tree/main/examples/mms), streamlit and modal labs.
+2. Each page is run in parallel, prone to CUDA out of memory errors (very fast though if you're lucky). 
+3. Costs can add up pretty quickly so keep an eye out for it.
 
 ## Setup
 
